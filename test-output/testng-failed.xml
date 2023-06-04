@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.wipro.testCases.TC03">
+        <methods>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="setUpExtentReport"/>
+          <include name="checkoutProductFunctionality" invocation-numbers="0"/>
+          <include name="logTestReports"/>
+        </methods>
+      </class> <!-- com.wipro.testCases.TC03 -->
+      <class name="com.wipro.testCases.TC02">
+        <methods>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="setUpExtentReport"/>
+          <include name="testLoginFunctionality"/>
+          <include name="logTestReports"/>
+          <include name="addNewAddressFunctionality" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.wipro.testCases.TC02 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

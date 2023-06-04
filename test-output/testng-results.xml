@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-04T11:55:01 IST" name="Suite" finished-at="2023-06-04T11:55:56 IST" duration-ms="54432">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner@2b30a42c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-04T11:55:01 IST" name="Test" finished-at="2023-06-04T11:55:56 IST" duration-ms="54432">
+      <class name="Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner@2b30a42c]" started-at="2023-06-04T11:55:36 IST" name="setUpClass" finished-at="2023-06-04T11:55:36 IST" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6f655dbd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner@2b30a42c]" started-at="2023-06-04T11:55:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-04T11:55:56 IST" duration-ms="19536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Menus"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Menus and Count links"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner@2b30a42c]" started-at="2023-06-04T11:55:56 IST" name="tearDownClass" finished-at="2023-06-04T11:55:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner -->
+      <class name="com.wipro.testCases.TC01">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wipro.testCases.TC01@5ddeb7cb]" started-at="2023-06-04T11:54:50 IST" name="setUp" finished-at="2023-06-04T11:55:01 IST" duration-ms="11621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpExtentReport()[pri:0, instance:com.wipro.testCases.TC01@5ddeb7cb]" started-at="2023-06-04T11:55:01 IST" name="setUpExtentReport" finished-at="2023-06-04T11:55:01 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExtentReport -->
+        <test-method signature="testRegistrationFunctionality([Ljava.lang.String;)[pri:0, instance:com.wipro.testCases.TC01@5ddeb7cb]" started-at="2023-06-04T11:55:02 IST" name="testRegistrationFunctionality" data-provider="registrationData" finished-at="2023-06-04T11:55:10 IST" duration-ms="8660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@8ee03f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFunctionality -->
+        <test-method is-config="true" signature="logTestReports(org.testng.ITestResult)[pri:0, instance:com.wipro.testCases.TC01@5ddeb7cb]" started-at="2023-06-04T11:55:10 IST" name="logTestReports" finished-at="2023-06-04T11:55:10 IST" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationFunctionality status=SUCCESS method=TC01.testRegistrationFunctionality([Ljava.lang.String;)[pri:0, instance:com.wipro.testCases.TC01@5ddeb7cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestReports -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.wipro.testCases.TC01@5ddeb7cb]" started-at="2023-06-04T11:55:56 IST" name="endReport" finished-at="2023-06-04T11:55:56 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wipro.testCases.TC01@5ddeb7cb]" started-at="2023-06-04T11:55:56 IST" name="tearDown" finished-at="2023-06-04T11:55:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wipro.testCases.TC01 -->
+      <class name="com.wipro.testCases.TC02">
+        <test-method signature="testLoginFunctionality([Ljava.lang.String;)[pri:0, instance:com.wipro.testCases.TC02@4a003cbe]" started-at="2023-06-04T11:55:10 IST" name="testLoginFunctionality" data-provider="loginData" finished-at="2023-06-04T11:55:15 IST" duration-ms="4614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@50f05307]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunctionality -->
+        <test-method is-config="true" signature="logTestReports(org.testng.ITestResult)[pri:0, instance:com.wipro.testCases.TC02@4a003cbe]" started-at="2023-06-04T11:55:15 IST" name="logTestReports" finished-at="2023-06-04T11:55:15 IST" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginFunctionality status=SUCCESS method=TC02.testLoginFunctionality([Ljava.lang.String;)[pri:0, instance:com.wipro.testCases.TC02@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestReports -->
+        <test-method signature="addNewAddressFunctionality([Ljava.lang.String;)[pri:0, instance:com.wipro.testCases.TC02@4a003cbe]" started-at="2023-06-04T11:55:15 IST" name="addNewAddressFunctionality" data-provider="addressData" finished-at="2023-06-04T11:55:20 IST" depends-on-methods="com.wipro.testCases.TC02.testLoginFunctionality" duration-ms="5010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@9cc0505]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAddressFunctionality -->
+        <test-method is-config="true" signature="logTestReports(org.testng.ITestResult)[pri:0, instance:com.wipro.testCases.TC02@4a003cbe]" started-at="2023-06-04T11:55:20 IST" name="logTestReports" finished-at="2023-06-04T11:55:21 IST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewAddressFunctionality status=SUCCESS method=TC02.addNewAddressFunctionality([Ljava.lang.String;)[pri:0, instance:com.wipro.testCases.TC02@4a003cbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestReports -->
+      </class> <!-- com.wipro.testCases.TC02 -->
+      <class name="com.wipro.testCases.TC03">
+        <test-method signature="checkoutProductFunctionality([Ljava.lang.String;)[pri:0, instance:com.wipro.testCases.TC03@4082ba93]" started-at="2023-06-04T11:55:21 IST" name="checkoutProductFunctionality" data-provider="loginData" finished-at="2023-06-04T11:55:36 IST" duration-ms="15104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@645d4639]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProductFunctionality -->
+        <test-method is-config="true" signature="logTestReports(org.testng.ITestResult)[pri:0, instance:com.wipro.testCases.TC03@4082ba93]" started-at="2023-06-04T11:55:36 IST" name="logTestReports" finished-at="2023-06-04T11:55:36 IST" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutProductFunctionality status=SUCCESS method=TC03.checkoutProductFunctionality([Ljava.lang.String;)[pri:0, instance:com.wipro.testCases.TC03@4082ba93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestReports -->
+      </class> <!-- com.wipro.testCases.TC03 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
